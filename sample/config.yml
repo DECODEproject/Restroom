@@ -1,0 +1,10 @@
+
+zen_folder: /home/puria/src/Restroom/sample/zen_folder
+
+get:
+  - randarray.zen
+  - random.zen
+
+post:
+  - decrypt.zen
+  - encrypt.zen
