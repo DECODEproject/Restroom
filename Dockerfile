@@ -24,4 +24,4 @@ COPY sample /sample
 RUN pip install -e /app
 
 WORKDIR /app
-CMD hypercorn app:app
+CMD hypercorn -b 0.0.0.0:8000 app:app
