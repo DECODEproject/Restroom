@@ -1,5 +1,5 @@
 
-zen_folder: /home/puria/src/Restroom/sample/zen_folder
+zen_folder: /sample/zen_folder
 
 get:
   - randarray.zen
