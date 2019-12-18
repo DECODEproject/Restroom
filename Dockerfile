@@ -6,7 +6,7 @@ LABEL maintainer="Puria Nafisi Azizi <puria@dyne.org>" \
 
 ENV LC_ALL C.UTF-8
 ENV LANG C.UTF-8
-ENV RESTROOM_CONFIG_FILE /sample/config.yml
+ENV RESTROOM_CONFIG_FILE /sample/config
 
 RUN apt-get update -y -q \
     && apt-get install -y -q \

@@ -1,0 +1,4 @@
+GET /randarray ../sample/randarray.zen
+GET /random ../sample/random.zen
+POST /decrypt ../sample/decrypt.zen
+POST /encrypt ../sample/encrypt.zen

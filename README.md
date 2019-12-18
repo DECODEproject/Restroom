@@ -21,19 +21,9 @@
 <br><br>
 
 <h4 align="center">
-  <a href="#floppy_disk-install">:floppy_disk: Install</a>
-  <span> • </span>
-  <a href="#video_game-quick-start">:video_game: Quick start</a>
-  <span> • </span>
   <a href="#whale-docker">:whale: Docker</a>
   <span> • </span>
-  <a href="#honeybee-api">:honeybee: API</a>
-  <span> • </span>
   <a href="#wrench-configuration">:wrench: Configuration</a>
-  <span> • </span>
-  <a href="#clipboard-testing">:clipboard: Testing</a>
-  <span> • </span>
-  <a href="#bug-troubleshooting--debugging">:bug: Troubleshooting & debugging</a>
   <span> • </span>
   <a href="#heart_eyes-acknowledgements">:heart_eyes: Acknowledgements</a>
   <span> • </span>
@@ -45,19 +35,12 @@
 </h4>
 
 
-Abstract description like: :construction: Zenroom is a software in **ALPHA stage** and are part of the [DECODE project](https://decodeproject.eu) about data-ownership and [technological sovereignty](https://www.youtube.com/watch?v=RvBRbwBm_nQ). Our effort is that of improving people's awareness of how their data is processed by algorithms, as well facilitate the work of developers to create along [privacy by design principles](https://decodeproject.eu/publications/privacy-design-strategies-decode-architecture) using algorithms that can be deployed in any situation without any change.
-
 
 <details>
  <summary><strong>:triangular_flag_on_post: Table of Contents</strong> (click to expand)</summary>
 
-* [Install](#floppy_disk-install)
-* [Quick start](#video_game-quick-start)
 * [Docker](#whale-docker)
-* [API](#honeybee-api)
 * [Configuration](#wrench-configuration)
-* [Testing](#clipboard-testing)
-* [Troubleshooting & debugging](#bug-troubleshooting--debugging)
 * [Acknowledgements](#heart_eyes-acknowledgements)
 * [Links](#globe_with_meridians-links)
 * [Contributing](#busts_in_silhouette-contributing)
@@ -65,35 +48,23 @@ Abstract description like: :construction: Zenroom is a software in **ALPHA stage
 </details>
 
 ***
-## :floppy_disk: Install
-```pip install / yard add {project_name}```
-
-***
-## :video_game: Quick start
-
-To start using {project_name} just (fill with real documentation)
-
-***
-## :whale: Docker
+## :whale: Docker quickstart
 
 ```bash
-docker build -t {project_name} .
-docker run --rm -it {project_name}
+docker build -t restroom .
+docker run -p 8000:8000 --rm -it restroom
 ```
 
-***
-## :honeybee: API
+head your browser to [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ***
 ## :wrench: Configuration
 
-***
+Configuration available at tihs time is:
 
-## :clipboard: Testing
+**RESTROOM_CONFIG_FILE**
 
-***
-## :bug: Troubleshooting & debugging
-
+That is read by `.env` or Environment variables
 
 ***
 ## :heart_eyes: Acknowledgements
@@ -102,7 +73,7 @@ Copyright :copyright: 2019 by [Dyne.org](https://www.dyne.org) foundation, Amste
 
 Designed, written and maintained by Puria Nafisi Azizi.
 
-Special thanks to Mr. W. White for his special contributions.
+Special thanks to Jaromil for this superb idea.
 
 <img src="https://zenroom.dyne.org/img/ec_logo.png" width="150" alt="Project funded by the European Commission">
 
@@ -112,7 +83,9 @@ This project is receiving funding from the European Union’s Horizon 2020 resea
 ***
 ## :globe_with_meridians: Links
 
-https://www.somelink.io/
+https://www.decodeproject.eu/
+
+https://www.zenroom.org/
 
 https://dyne.org/
 
@@ -132,7 +105,7 @@ Please first take a look at the [Dyne.org - Contributor License Agreement](CONTR
 
 ***
 ## :briefcase: License
-    {project_name} - {tagline}
+    Restroom - {tagline}
     Copyright (c) 2019 Dyne.org foundation, Amsterdam
 
     This program is free software: you can redistribute it and/or modify
